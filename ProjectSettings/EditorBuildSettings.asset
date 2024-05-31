@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/03_FlowerBoy.unity
     guid: dc74a9d42e0801e4f86af6fadc0c4667
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/00_Ouchhh.unity
     guid: f346ee45afe7cd3449df6d9a3da4aeef
+  - enabled: 1
+    path: Assets/Scenes/02_CherryBomb.unity
+    guid: f1c11e5cc9896504eb5f5e7cc0260e7c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e673ca2adf026415cbfbf5ea29e1f486,
       type: 2}
