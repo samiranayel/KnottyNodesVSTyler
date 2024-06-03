@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.29
+  m_AmbientIntensity: 3.61
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.15472588, g: 0.44134074, b: 0.5754717, a: 1}
+  m_SubtractiveShadowColor: {r: 0.16078432, g: 0.4392157, b: 0.5764706, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 7cafa83850992774d9a3e9971a6b42f8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.043287683, g: 0.028423104, b: 0.06811756, a: 1}
+  m_IndirectSpecularColor: {r: 0.043465573, g: 0.028549887, b: 0.068389714, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -585,6 +585,93 @@ MonoBehaviour:
   m_MoveObjectOut: 15
   m_DirectionalAnchorRotation: 1
   m_PoseProvider: {fileID: 0}
+--- !u!1001 &85733141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 211.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 81.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7790045
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05340245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6211396
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06697489
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 9.579
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 283.051
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      propertyPath: m_Name
+      value: TTC_WIG_v03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55d600e5326c74911b3bb840582a495c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1574190945}
+  m_SourcePrefab: {fileID: 100100000, guid: 55d600e5326c74911b3bb840582a495c, type: 3}
 --- !u!850595691 &304508493
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -594,7 +681,7 @@ LightingSettings:
   m_Name: 
   serializedVersion: 6
   m_GIWorkflowMode: 1
-  m_EnableBakedLightmaps: 1
+  m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
   m_BounceScale: 1
@@ -754,7 +841,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579561486}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &579561491
 Camera:
   m_ObjectHideFlags: 0
@@ -822,7 +909,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -1726,6 +1813,33 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!1 &1574190943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 55d600e5326c74911b3bb840582a495c,
+    type: 3}
+  m_PrefabInstance: {fileID: 85733141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1574190945
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574190943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 72519d403f56242f68c69ed4ef0a70f1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1701410410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1972,3 +2086,4 @@ SceneRoots:
   - {fileID: 977899454}
   - {fileID: 862839068}
   - {fileID: 1701410410}
+  - {fileID: 85733141}
